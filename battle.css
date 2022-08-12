@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 70%;
+    height: 90vh;
+    background-color: dodgerblue;
+    margin: auto;
+}
+.main{
+    width: 250px;
+    height: 400px;
+    background-color: #555;
+    margin-left: 250px;
+    margin: auto;
+    transform: rotate(-50deg);
+    border-radius: 100px;
+}
+.div{
+    width: 10px;
+    height: 50px;
+    background-color: aqua;
+    margin-left: 130px;
+    transform: translateY(60px);
+}

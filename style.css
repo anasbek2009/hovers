@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0px 45px;
+}
+.logo{
+    flex: 1;
+    color: #214e41;
+    font-weight: 500;
+}
+.collection{
+    display: flex;
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.item{
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #214e41;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #43806c;
+    border-radius: 6px;
+    padding: 10px 14px;
+    border: none;
+}
+.nav-lang select{
+    margin: 0px 30px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 13px;
+    color: #214e41;
+
+}
+.nav-lng span{
+    font-weight: 700;
+    font-size: 13px;
+    color: #214e41;
+}
+.banner{
+    background: url("./Rectangle\ \(3\)as.png") no-repeat center/cover;
+    width: 100%;
+    height: 720px;
+    position: relative;
+}
+.banner_text{
+    width: 500px;
+    padding-top: 160px;
+    padding-left: 120px;
+    
+}
+.banner_text h1{
+    color: #214e41;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.banner_text p{
+    color: #214e41;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.banner_search{
+    display: flex;
+}
+.banner_search input{
+    width: 280px;
+    height: 60px;
+    border-radius: 6px 0px 0px 6px;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+}
+.banner_search button{
+    width: 123px;
+    height: 60px;
+    background: #214e41;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+.banner_bottom{
+    width: 80%;
+    height: 171px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px gray;
+    padding: 50px;
+    display: flex;
+}
+.banner_item{
+    display: flex;
+    align-items: flex-start;
+}
+.banner_item h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #214e41;
+    margin-bottom: 7px;
+}
+.banner_item img{
+    margin-right: 10px;
+}
+.banner_item p{
+    font-size: 14px;
+    color: #214e41;
+}
+.katta{
+    width: 100%;
+    height: 600px;
+    background:  #E5E5E5;;
+    margin-top: 100px;
+    display: flex;
+}
+.logoh{
+    width: 550px;
+    height: 600px;
+    padding-top: 177px;
+    padding-left: 120px;
+    background-color: white;
+}
+.logot{
+    width: 350px;
+}
+.pi{
+    width: 400px;
+}
+.mee{
+    padding-top: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.main2{
+    width: 550px;
+    height: 600px;
+    padding-top: 177px;
+    padding-left: 120px;
+    background-color: white;
+}
+.s60{
+    font-size: 70px;
+    color: #214e41;
+    transform: translateX(-100px);
+}
+.sss{
+    width: 250px;
+    margin-top: 30px;
+    transform: translateX(-100px);
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 22px
+}
+
+.di{
+    width: 78px;
+    height: 150px;
+    background-color: #214e41;
+    margin-left: 150px;
+    transform: translateY(-150px);
+    display: flex;
+}
+.dollar{
+    margin-left: 160px;
+    transform: translateY(-120px);
+}
+.dio{
+    width: 78px;
+    height: 300px;
+    background-color: #214e41;
+    margin-left: 300px;
+    transform: translateY(-450px);
+}
+.cent{
+    margin-left: 310px;
+    transform: translateY(-290px);
+}
+.span1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+}
+.span2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+}
+.pot{
+    transform: translateY(50px);
+    margin-left: 100px;
+    font-weight: 300;
+}
+.corbonat{
+    width: 705px;
+    height: 500px;
+    background-color: #E5E5E5;
+    margin: auto;
+
+}
+.logonat{
+    width: 705px;
+    height: 500px;
+    background-color: #214e41;
+}
+.kotta{
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.poiu{
+    padding-top: 120px;
+    padding-left: 120px;
+}
+.corbonat h3{
+    width: 300px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+padding-top: 0px;
+    height: 300px;
+    margin-left: 60px;
+}
+.logonat h4{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+}
+.ot{
+    width: 100%;
+    height: 522px;
+
+    background: url("./Rectangle\ \(9\).png") no-repeat center/cover;
+}
+.h2{
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 120px;
+}
+.h3{
+    width: 400px;
+    margin-left: 120px;
+}
+.lorem{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    padding-top: 30px;
+    padding-left: 115px;
+    text-decoration: underline;
+}
+.na{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    transform: translateY(120px);
+    padding-left: 130px;
+
+}
+.gl{
+  
+    width: 100%;
+    height: 500px;
+    display: flex;
+    
+}
+.sv{
+    background: url("./anico.png") no-repeat center/cover;
+    width: 50%;
+    height: 500px;
+
+}
+.cl{
+    width: 50%;
+    height: 500px;
+}
+.h6{
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 120px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #214e41;
+}
+.h5{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 46px;
+padding-top: 30px;
+color: #214e41;
+padding-left: 120px;
+}
+.brn{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.02px;
+height: 40px;
+width: 100px;
+margin-top: 40px;
+margin-left: 120px;
+background-color: #214e41;
+color: white;
+border: none;
+border-radius: 6px;
+}
+
